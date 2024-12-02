@@ -19,7 +19,6 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/floating-labels.css">
 
 </head>
 
@@ -27,40 +26,43 @@
 
   <div class="revista-wrapper">
 
-    <div class="left-container d-flex flex-column">
+    <header class="masthead mb-auto">
+      <div class="container-fluid d-flex">
 
-      <header class="masthead mb-auto">
-        <div class="container d-flex">
-
-          <div class="logos-header d-flex flex-fill align-items-center">
-            <div class="logo-header-unam">
-              <a href="https://www.unam.mx/" target="_blank"><img src="img/logo-unam.svg" alt="UNAM"></a>
-            </div>
-            <div class="logo-header-cch">
-              <a href="https://www.cch.unam.mx/" target="_blank"><img src="img/logo-cch.svg" alt="CCH"></a>
-            </div>
+        <div class="logos-header d-flex flex-fill align-items-center">
+          <div class="logo-header-pacch d-block d-lg-none">
+            <a href="https://www.unam.mx/" target="_blank"><img src="img/icono-pacch.svg" alt="UNAM"></a>
           </div>
-
-          <nav class="nav nav-masthead justify-content-center align-items-center">
-            <a class="nav-link" href="#!">Inicio</a>
-            <a class="nav-link" href="#!">Revistas</a>
-          </nav>
+          <div class="logo-header-pacch d-none d-lg-block">
+            <a href="https://www.unam.mx/" target="_blank"><img src="img/logo-pacch.svg" alt="UNAM"></a>
+          </div>
+          <div class="logo-header-unam">
+            <a href="https://www.unam.mx/" target="_blank"><img src="img/logo-unam.svg" alt="UNAM"></a>
+          </div>
+          <div class="logo-header-cch">
+            <a href="https://www.cch.unam.mx/" target="_blank"><img src="img/logo-cch.svg" alt="CCH"></a>
+          </div>
         </div>
-      </header>
+
+        <nav class="nav nav-masthead justify-content-center align-items-center">
+          <a class="nav-link" href="#!">Inicio</a>
+          <a class="nav-link" href="#!">Revistas</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="left-container d-flex flex-column">
 
       <div class="intro-revista-container">
         <div class="container">
-            <div class="mb-4">
-              <h1>SIGNOS</h1>
-              <h2>Teoría y práctica de la educación</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab repellendus id, velit natus similique
-                numquam accusantium explicabo officia, et debitis soluta! At, enim! Praesentium consequatur pariatur
-                voluptate ea blanditiis maiores!</p>
-            </div>
-
-            <button class="btn btn-lg btn-primary">Conoce la revista</button>
-            <!-- <p class="mt-4 text-muted">Ayuda para ingresar: <a class="bibliografia_link"
-                href="mailto:soportec@cch.unam.mx">soportec@cch.unam.mx</a></p> -->
+          <div class="texto-intro">
+            <h1>SIGNOS</h1>
+            <h3 class="subtitulo">Teoría y práctica de la educación</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab repellendus id, velit natus similique
+              numquam accusantium explicabo officia, et debitis soluta! At, enim! Praesentium consequatur pariatur
+              voluptate ea blanditiis maiores!</p>
+          </div>
+          <a class="btn btn-azul btn-primary" href="revista.html" role="button">Conoce la revista</a>
         </div>
       </div>
 

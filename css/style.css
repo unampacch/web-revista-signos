@@ -29,38 +29,48 @@ a:hover {
   padding-right: 0 !important;
 }
 
-.btn-primary {
+.btn-azul.btn-primary {
   color: #fff;
-  background-color: #188a8a;
-  border-color: #188a8a;
+  background-color: #2042b8;
+  border-color: #2042b8;
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #147474;
-  border-color: #147474;
+.btn-azul {
+  padding: 0.8rem 2rem;
+  border-radius: 0.625rem;
 }
 
-.btn-primary.focus,
-.btn-primary:focus {
+.btn-azul.btn-primary:hover {
   color: #fff;
-  background-color: #147474;
-  border-color: #147474;
-  box-shadow: 0 0 0 0.2rem rgba(32, 181, 181, 0.5);
+  background-color: #1c3aa2;
+  border-color: #1c3aa2;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active {
+.btn-azul.btn-primary.focus,
+.btn-azul.btn-primary:focus {
   color: #fff;
-  background-color: #147474;
-  border-color: #147474;
+  background-color: #1c3aa2;
+  border-color: #1c3aa2;
+  box-shadow: 0 0 0 0.2rem rgba(28, 58, 162, 0.5);
+}
+
+.btn-azul.btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #1c3aa2;
+  border-color: #1c3aa2;
 }
 
 /*
  * Header
  */
 
+.logo-header-pacch img {
+  height: 2.5rem;
+}
+
 .logo-header-unam img {
   height: 2.5rem;
+  margin-left: 1rem;
 }
 
 .logo-header-cch img {
@@ -72,7 +82,14 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.masthead,
+.masthead {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 1.5rem 10rem;
+}
+
 .mastfoot {
   position: relative;
   z-index: 999;
@@ -86,12 +103,12 @@ a:hover {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(24, 138, 138, 1);
+  /* color: rgba(32, 66, 184, 1); */
   background-color: transparent;
 }
 
 .nav-masthead .nav-link:hover {
-  color: rgba(24, 138, 138, .5);
+  /* color: rgba(32, 66, 184, .5); */
 }
 
 .nav-masthead .nav-link+.nav-link {
@@ -154,6 +171,10 @@ a:hover {
   padding: 10rem
 }
 
+.texto-intro {
+  margin-bottom: 1.875rem;
+}
+
 .revista-wrapper h1 {
   font-family: "League Spartan", serif;
   font-optical-sizing: auto;
@@ -161,10 +182,30 @@ a:hover {
   font-style: normal;
   text-transform: uppercase;
   color: #111;
-  font-size: 4rem;
+  font-size: 8.5rem;
+  margin-bottom: 0;
+  line-height: 0.8;
 }
 
-@media (min-width: 768px) {}
+.revista-wrapper .subtitulo {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-bottom: 1.875rem;
+}
+
+@media (max-width: 1400px) {
+  .revista-wrapper h1 {
+    font-size: 4.5rem
+  }
+
+  .revista-wrapper .subtitulo {
+    font-size: 1.875rem
+  }
+}
+
 
 @media (max-width: 1200px) {
   .revista-wrapper .intro-revista-container {
@@ -173,16 +214,6 @@ a:hover {
 
   .masthead {
     padding: 1.5rem 5rem;
-  }
-
-  .revista-wrapper h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .revista-wrapper h1 {
-    font-size: 2.4rem;
   }
 }
 
@@ -220,7 +251,7 @@ a:hover {
   }
 
   .revista-wrapper h1 {
-    font-size: 2rem;
+    font-size: 4.5rem;
   }
 
 }
