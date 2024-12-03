@@ -165,9 +165,16 @@ a:hover {
   margin-bottom: 1.875rem;
 }
 
-.img-intro-revista {
-  margin-top: 10rem;
+.col-intro-revista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
+
+/* .img-intro-revista {
+  margin-top: 10rem;
+} */
 
 .acerca-revista {
   position: relative;
@@ -414,6 +421,11 @@ hr.linea-footer {
 
   .nav-masthead .nav-link:hover {
     color: rgba(32, 65, 184, 0.5);
+  }
+
+  .col-intro-revista {
+    display: block;
+    height: 100%;
   }
 
   .img-intro-revista {
