@@ -28,7 +28,7 @@ a:hover {
 }
 
 .btn-azul.btn-primary {
-  color: #fff;
+  color: #FFFFFF;
   background-color: #2042b8;
   border-color: #2042b8;
 }
@@ -39,21 +39,21 @@ a:hover {
 }
 
 .btn-azul.btn-primary:hover {
-  color: #fff;
+  color: #FFFFFF;
   background-color: #1c3aa2;
   border-color: #1c3aa2;
 }
 
 .btn-azul.btn-primary.focus,
 .btn-azul.btn-primary:focus {
-  color: #fff;
+  color: #FFFFFF;
   background-color: #1c3aa2;
   border-color: #1c3aa2;
   box-shadow: 0 0 0 0.2rem rgba(28, 58, 162, 0.5);
 }
 
 .btn-azul.btn-primary:not(:disabled):not(.disabled):active {
-  color: #fff;
+  color: #FFFFFF;
   background-color: #1c3aa2;
   border-color: #1c3aa2;
 }
@@ -199,7 +199,7 @@ hr.linea-footer {
 }
 
 #footer-inicio p {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 16px;
   margin: 0;
 }
@@ -215,7 +215,7 @@ hr.linea-footer {
 
 .footer-2 a:hover,
 .footer-2 a:focus {
-  color: #188A8A;
+  color: #2042b8;
 }
 
 #footer-inicio .navbar-nav a {
@@ -223,13 +223,13 @@ hr.linea-footer {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  color: #F1F1F1;
+  color: #FFFFFF;
 }
 
 #footer-inicio .nav>li>a:hover,
 #footer-inicio .nav>li>a:focus {
   text-decoration: none;
-  color: #188A8A;
+  color: #2042b8;
   background-color: transparent;
 }
 
@@ -292,7 +292,7 @@ hr.linea-footer {
 
 .redes-footer ul li a:hover i,
 .redes-footer ul li a:focus i {
-  color: #188A8A;
+  color: #2042b8;
 }
 
 #footer-inicio .navbar-nav {
