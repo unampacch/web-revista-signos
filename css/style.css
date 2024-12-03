@@ -127,7 +127,7 @@ a:hover {
 .revista-wrapper .right-container {
   position: fixed;
   right: 0;
-  height: 100vh;
+  height: 50vh;
   width: 50%;
   background-color: #2042B8;
 }
@@ -167,6 +167,10 @@ a:hover {
   margin-bottom: 1.875rem;
 }
 
+.img-intro-revista {
+  margin-top: 10rem;
+}
+
 @media (max-width: 1400px) {
   .revista-wrapper h1 {
     font-size: 4.5rem
@@ -199,7 +203,7 @@ a:hover {
     width: 100% !important;
     position: relative !important;
     right: unset !important;
-    height: 100% !important;
+    height: auto !important;
   }
 }
 
@@ -224,6 +228,11 @@ a:hover {
 
   .nav-masthead .nav-link:hover {
     color: rgba(32, 65, 184, 0.5);
+  }
+
+  .img-intro-revista {
+    margin-top: -5rem;
+    padding: 0 3rem 3rem 3rem;
   }
 }
 
