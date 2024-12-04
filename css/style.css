@@ -187,8 +187,16 @@ a:hover {
 /* Termina Acerca de */
 
 /* Inicia Revistas */
-.pantalla-revistas .masthead {
+.pantalla-interior .masthead {
   position: relative;
+}
+
+.pantalla-interior .nav-masthead a {
+  color: #000000;
+}
+
+.pantalla-interior .nav-masthead a:hover {
+  color: #2042B8
 }
 
 .header-interior {
