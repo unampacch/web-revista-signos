@@ -222,6 +222,19 @@ a:hover {
   margin-bottom: 0;
 }
 
+.header-interior .breadcrumb a {
+  text-decoration: none;
+  color: rgba(17, 17, 17, 0.75);
+}
+
+.header-interior .breadcrumb a:hover {
+  color: #2042B8
+}
+
+.header-interior .breadcrumb .active {
+  color: #2042B8
+}
+
 /* Termina Revistas */
 
 a.correo-link {
