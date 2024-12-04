@@ -243,7 +243,17 @@ a:hover {
   color: #2042B8
 }
 
+.revistas-disponibles .figure-caption {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111111;
+}
+
 /* Termina Revistas */
+
+.revistas-disponibles {
+  padding: 5rem 10rem;
+}
 
 a.correo-link {
   color: #111111;
@@ -414,6 +424,10 @@ hr.linea-footer {
     padding: 1.5rem 5rem;
   }
 
+  .revistas-disponibles {
+    padding: 1.5rem 5rem;
+  }
+
   #footer-inicio {
     text-align: center;
     padding: 0 3rem;
@@ -520,6 +534,10 @@ hr.linea-footer {
   .header-interior .breadcrumb {
     font-size: 0.875rem;
     margin-top: 1.25rem;
+  }
+
+  .revistas-disponibles {
+    padding: 1.5rem 3rem;
   }
 }
 
