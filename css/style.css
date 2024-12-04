@@ -264,6 +264,63 @@ a:hover.correo-link {
 
 /* Termina Revistas */
 
+/* Inicia Revista Interior */
+.revista-interior {
+  padding: 5rem 10rem;
+}
+
+.revista-interior h3.subtitulo {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.25rem;
+}
+
+.info-revista-interior {
+  padding-bottom: 1.875rem;
+}
+
+.info-revista-interior p {
+  margin-bottom: 0;
+}
+
+/* .indice-revista-interior {
+  padding-top: 1.875rem;
+} */
+
+.revista-interior h4.subtitulo-interior {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-bottom: 1px solid #2042B8;
+  padding-bottom: 0.8rem;
+}
+
+.revista-interior .img-portada-interior {
+  margin-bottom: 1.875rem;
+}
+
+.info-revista-interior .link-interior p:first-child {
+  margin-top: 0.5rem;
+}
+
+.info-revista-interior .link-interior {
+  padding-bottom: 0.8rem;
+}
+
+.info-revista-interior a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.info-revista-interior a:hover {
+  color: #2042B8;
+}
+
+/* Termina Revista Interior */
 
 /* Inicia Footer */
 #footer-inicio {
@@ -314,7 +371,7 @@ hr.linea-footer {
 }
 
 #footer-inicio .navbar-nav a {
-  font-family: noto-sans, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -428,6 +485,10 @@ hr.linea-footer {
     padding: 1.5rem 5rem;
   }
 
+  .revista-interior {
+    padding: 1.5rem 5rem;
+  }
+
   #footer-inicio {
     text-align: center;
     padding: 0 3rem;
@@ -537,6 +598,10 @@ hr.linea-footer {
   }
 
   .revistas-disponibles {
+    padding: 1.5rem 3rem;
+  }
+
+  .revista-interior {
     padding: 1.5rem 3rem;
   }
 }
