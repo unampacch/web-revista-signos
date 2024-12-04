@@ -59,7 +59,7 @@ a:hover {
 }
 
 /*
- * Header
+ * Inicia Header
  */
 
 .logo-header-pacch img {
@@ -172,9 +172,9 @@ a:hover {
   height: 100vh;
 }
 
-/* .img-intro-revista {
-  margin-top: 10rem;
-} */
+/*
+ * Termina Header
+ */
 
 /* Inicia Acerca de */
 .acerca-revista {
@@ -182,6 +182,15 @@ a:hover {
   height: 100%;
   background-color: #EBE9E3;
   padding: 5rem 10rem;
+}
+
+a.correo-link {
+  color: #111111;
+  text-decoration: none;
+}
+
+a:hover.correo-link {
+  color: #2042B8;
 }
 
 /* Termina Acerca de */
@@ -243,6 +252,10 @@ a:hover {
   color: #2042B8
 }
 
+.revistas-disponibles {
+  padding: 5rem 10rem;
+}
+
 .revistas-disponibles .figure-caption {
   font-size: 1rem;
   font-weight: 700;
@@ -250,19 +263,6 @@ a:hover {
 }
 
 /* Termina Revistas */
-
-.revistas-disponibles {
-  padding: 5rem 10rem;
-}
-
-a.correo-link {
-  color: #111111;
-  text-decoration: none;
-}
-
-a:hover.correo-link {
-  color: #2042B8;
-}
 
 
 /* Inicia Footer */
