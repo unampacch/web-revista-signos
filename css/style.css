@@ -348,10 +348,6 @@ hr.linea-footer {
     padding: 3rem 3rem;
   }
 
-  .img-acerca-revista {
-    margin: 3rem 0 0 0;
-  }
-
   #footer-inicio {
     text-align: center;
     padding: 0 3rem;
@@ -431,6 +427,10 @@ hr.linea-footer {
   .img-intro-revista {
     margin-top: -5rem;
     padding: 0 3rem 3rem 3rem;
+  }
+  
+  .img-acerca-revista {
+    margin: 3rem 0 0 0;
   }
 }
 
