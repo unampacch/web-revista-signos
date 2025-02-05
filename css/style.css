@@ -550,6 +550,11 @@ hr.linea-footer {
 
 @media (max-width: 991px) {
 
+  .revista-wrapper .masthead {
+    position: relative;
+    margin-bottom: -5.625rem;
+  }
+
   .btn-azul {
     padding: 0.5rem 1.5rem;
   }
