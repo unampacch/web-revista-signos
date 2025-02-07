@@ -281,6 +281,35 @@ a:hover.correo-link {
 /* Termina Revistas */
 
 /* Inicia Revista Interior */
+
+a.correo-link,
+.link-interior a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+a.correo-link::after,
+.link-interior a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a.correo-link:hover::after,
+.link-interior a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .revista-interior {
   padding: 5rem 10rem;
 }
