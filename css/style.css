@@ -61,6 +61,15 @@ a:hover {
   border-color: #1c3aa2;
 }
 
+.btn-monografias {
+  display: none;
+}
+
+.botones-inicio {
+  display: flex;
+  flex-direction: row;
+}
+
 /*
  * Inicia Header
  */
@@ -588,6 +597,12 @@ hr.linea-footer {
     padding: 0.5rem 1.5rem;
   }
 
+  .btn-monografias {
+    display: block;
+    width: fit-content;
+    margin-left: 0.625rem;
+  }
+
   .revista-wrapper .intro-revista-container {
     padding: 3rem;
   }
@@ -660,6 +675,22 @@ hr.linea-footer {
 
   .revista-interior h4.subtitulo-interior {
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-azul {
+    width: 100%;
+  }
+
+  .botones-inicio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-monografias {
+    margin-top: 0.625rem;
+    margin-left: 0;
   }
 }
 
