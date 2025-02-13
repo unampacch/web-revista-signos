@@ -590,21 +590,22 @@ hr.linea-footer {
 
   .revista-wrapper .masthead {
     position: relative;
-    margin-bottom: -5.625rem;
   }
 
-  .btn-azul {
-    padding: 0.5rem 1.5rem;
+  .revista-wrapper .right-container {
+    margin-top: 5.625rem;
   }
 
-  .btn-monografias {
-    display: block;
-    width: fit-content;
-    margin-left: 0.625rem;
+  .revista-wrapper .left-container {
+    height: 100%;
   }
 
   .revista-wrapper .intro-revista-container {
     padding: 3rem;
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
   }
 
   .revista-wrapper {
@@ -675,6 +676,16 @@ hr.linea-footer {
 
   .revista-interior h4.subtitulo-interior {
     font-size: 1.25rem;
+  }
+
+  .btn-azul {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .btn-monografias {
+    display: block;
+    width: fit-content;
+    margin-left: 0.625rem;
   }
 }
 
