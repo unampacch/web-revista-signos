@@ -206,6 +206,53 @@ a:hover.correo-link {
   color: #2042B8;
 }
 
+.img-acerca-revista {
+  display: none;
+}
+
+.grupo {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 700px;
+  background-color: transparent;
+}
+
+.grupo-formas {
+  position: absolute;
+}
+
+.circulo {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #2042b8;
+  left: 50px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.puntos {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 380px;
+  z-index: 3;
+  left: 50px;
+  top: 50px;
+}
+
+.img-formas {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 550px;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
 /* Termina Acerca de */
 
 /* Inicia Revistas */
@@ -514,6 +561,23 @@ hr.linea-footer {
   .revista-wrapper .subtitulo {
     font-size: 1.875rem
   }
+
+  .img-formas {
+    width: 350px;
+  }
+
+  .puntos {
+    width: 180px;
+    left: 0;
+    top: 50px;
+  }
+
+  .circulo {
+    max-width: 200px;
+    height: 200px;
+    left: 0;
+    bottom: 50px;
+  }
 }
 
 
@@ -528,6 +592,10 @@ hr.linea-footer {
 
   .acerca-revista {
     padding: 3rem 3rem;
+  }
+
+  .grupo {
+    margin: 100px auto 0;
   }
 
   .header-interior {
@@ -583,6 +651,20 @@ hr.linea-footer {
     position: relative !important;
     right: unset !important;
     height: auto !important;
+  }
+
+  .puntos {
+    left: 50px;
+  }
+
+  .circulo {
+    left: 50px;
+    bottom: 0;
+  }
+
+  .img-formas {
+    width: 100%;
+    right: 50px;
   }
 }
 
@@ -703,6 +785,10 @@ hr.linea-footer {
     margin-top: 0.625rem;
     margin-left: 0;
   }
+
+  .img-formas {
+    right: 50px;
+  }
 }
 
 
@@ -713,6 +799,14 @@ hr.linea-footer {
 
   #footer-inicio .navbar-nav {
     flex-direction: column;
+  }
+
+  .img-acerca-revista {
+    display: block;
+  }
+
+  .grupo {
+    display: none;
   }
 
 }
